@@ -3,7 +3,7 @@
  */
 public class Car {//OOP  --> object oriented programming
 
-    private String brand;
+    private String brand;//attribute or properties
     private String model;
 
     private Color color;
@@ -16,6 +16,11 @@ public class Car {//OOP  --> object oriented programming
         this.brand = brand;
         this.model = model;
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Brand: "+ brand+"; model="+ model+"; color="+color;
     }
 }
 
