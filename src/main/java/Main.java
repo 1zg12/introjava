@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //java --> OOP --> object oriented programming
         Car p911 = new Car("Porsche", "911", Color.RED);
         Car forester = new Car("Subaru", "Forester", Color.BLACK);
 
